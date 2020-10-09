@@ -1,12 +1,12 @@
 import XCTest
-@testable import iColors
+@testable import iColor
 
-final class ColorsTests: XCTestCase {
+final class iColorTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(iColors().text, "Hello, World!")
+//        XCTAssertEqual(iColor().text, "Hello, World!")
     }
 
     static var allTests = [

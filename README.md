@@ -1,2 +1,2 @@
-# Colors
+# iColor
 Quickly implement modern colors
