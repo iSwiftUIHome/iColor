@@ -5,6 +5,7 @@ import SwiftUI
 @available(iOS 13.0, *)
 @available(tvOS 13.0, *)
 public extension Color {
+    
     static let neonRed:        Color = Color(hue: 0/360,   saturation: 0.65, brightness: 1.00)
     static let lightRed:       Color = Color(hue: 0,       saturation: 0.30, brightness: 1.00)
     static let darkRed:        Color = Color(hue: 0,       saturation: 0.70, brightness: 0.35)
@@ -36,7 +37,7 @@ public extension Color {
     private static let rgbRange: ClosedRange<Int> = 0...255
     private static let alphaRange: ClosedRange<Int> = 0...100
     
-    /// Creates a new `Color` object from a hex value, represented as a `String`.
+    /// Creates a new `Color` 🎨 object from a hex value (e. g. "#18B5DF"), represented as a `String`.
     /// - Parameters:
     ///   - hex: A hex value, not case sensitive, represented as a `String`
     ///   - opacity: The opacity of the color to be constructed
@@ -65,7 +66,7 @@ public extension Color {
     /// Creates a new `Color` object from a hex value, represented as a `String`.
     /// - Parameters:
     ///   - hex: A hex value, not case sensitive, represented as a `String`
-    ///   - opacity: The opacity of the color
+    ///   - opacity: The opacity of the color 🏳🏴
     init?(_ hex: String, opacity: Int = 100) {
         self.init(hex, opacity: Double(opacity / 100))
     }
